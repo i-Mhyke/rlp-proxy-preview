@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require('dotenv').config();
 var express_1 = __importDefault(require("express"));
-var lib_1 = require("./lib");
+var lib_1 = require("./api/lib");
 var app = express_1.default();
 var port = Number(process.env.PORT || 8080);
 var SERVER_URL = process.env.SERVER_URL;
